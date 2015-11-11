@@ -25,7 +25,7 @@ public class GuiFrame extends JFrame
 	{
 		this.setContentPane(basePanel); 	// Must be the first line of setupFrame! - Installs the panel in the frame.
 		this.setSize(400,400);				//find a good size for the app.
-		this.setTitle("silly app");
+		this.setTitle("my app");
 		this.setResizable(false); 			//Advisable but required.
 		this.setVisible(true); 				// Must be the Last line of setupFrame!
 	}
